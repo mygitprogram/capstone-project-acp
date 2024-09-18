@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Carousel</title>
+  <style>
+    body{
+      background-color:bisque;
+    }
+    h1{
+      text-align: center;
+      text-decoration: underline;
+      text-transform: capitalize;
+    }
+    .carousel-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 300px; /* Adjust based on your image height */
+    }
+
+    /* Hide all slides by default */
+    .myslides {
+      display: none;
+      max-height: 100%; /* Ensure images fit within container */
+      max-width: 100%;
+    }
+    
+  </style>
+</head>
+<body>
+  <h1>Birds</h1>
+ 
+  <div class="carousel-container">
+    <img class="myslides" src="bird1.jpeg" height="300" width="300" alt="Slide 1">
+    <img class="myslides" src="bird2.jpeg" height="300" width="300" alt="Slide 2">
+    <img class="myslides" src="bird3.jpeg" height="300" width="300" alt="Slide 3">
+    <img class="myslides" src="bird4.jpeg" height="300" width="300" alt="Slide 3">
+  </div>
+
+  <script src = "slider1.js">
+    
+  </script>
+</body>
